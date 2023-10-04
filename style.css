@@ -1,0 +1,59 @@
+* {
+    font: bold verdana;
+}
+
+body {
+    background-image: url('messi4k.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: white;
+}
+
+.class1 {
+    background-color: rgb(124, 248, 207, 0.5);
+}
+
+
+#id1 {
+    background-color: rgb(88, 121, 87, 0.5);
+
+}
+
+div>p {
+    background-color: rgb(87, 87, 122, 0.5);
+}
+
+
+div:nth-child(2) {
+    font-style: italic;
+}
+
+.child3[target="dark"] {
+    font-weight: bold;
+}
+
+div.link {
+    text-align: center;
+}
+
+button {
+    font: bold 12pt verdana;
+    padding: 11px;
+    background-color: #5652c6;
+    color: white;
+    border: solid 2px rgb(56, 54, 54);
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #251fde;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(33, 192, 192)
+}
