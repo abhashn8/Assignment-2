@@ -1,4 +1,6 @@
+/* To select everything */
 * {
+    color: azure;
     font: bold verdana;
 }
 
@@ -12,25 +14,65 @@ p {
     color: white;
 }
 
+.header {
+    text-align: center;
+    font-size: 25pt;
+
+}
+
+/* Only for a specifc class */
 .class1 {
-    background-color: rgb(124, 248, 207, 0.5);
+    text-align: right;
+    font-size: 16pt;
+    padding: 15px;
+    background-color: rgb(88, 121, 87, 0.3);
+}
+
+/* Using the not(exception) functionality */
+#id1:not([target="third"]) {
+    font-weight: bold;
 }
 
 
+/* Only for a specifc ID */
 #id1 {
-    background-color: rgb(88, 121, 87, 0.5);
-
+    text-align: right;
+    font-size: 16pt;
+    background-color: rgb(88, 121, 87, 0.3);
 }
 
+.class2 {
+    padding: 15px;
+}
+
+
+/* Using child/ descendant selectors */
 div>p {
-    background-color: rgb(87, 87, 122, 0.5);
+    background-color: rgb(87, 87, 122, 0.3);
+}
+
+h4 {
+    text-align: right;
+    font-size: 24pt;
+
 }
 
 
+/* Combinatorial Selectors */
+p,
+h4 {
+    color: whitesmoke;
+    border: solid 2px gray
+}
+
+
+/* Using the nth- child functionality */
 div:nth-child(2) {
     font-style: italic;
 }
 
+
+/* attribute wise */
 .child3[target="dark"] {
     font-weight: bold;
 }
@@ -38,6 +80,7 @@ div:nth-child(2) {
 div.link {
     text-align: center;
 }
+
 
 button {
     font: bold 12pt verdana;
@@ -47,6 +90,8 @@ button {
     border: solid 2px rgb(56, 54, 54);
     border-radius: 12px;
 }
+
+/* Active and Hover concepts */
 
 button:hover {
     background-color: #251fde;
