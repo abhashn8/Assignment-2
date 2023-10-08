@@ -25,7 +25,9 @@ p {
     text-align: right;
     font-size: 16pt;
     padding: 15px;
-    background-color: rgb(88, 121, 87, 0.3);
+    /* background-color: rgb(88, 121, 87, 0.3); */
+    background-image: linear-gradient(to bottom, rgb(0, 77, 152, 0.4), rgb(165, 0, 68, 0.4));
+
 }
 
 /* Using the not(exception) functionality */
@@ -38,7 +40,9 @@ p {
 #id1 {
     text-align: right;
     font-size: 16pt;
-    background-color: rgb(88, 121, 87, 0.3);
+    /* background-color: rgb(88, 121, 87, 0.3); */
+    background-image: linear-gradient(to bottom, rgb(0, 77, 152, 0.4), rgb(165, 0, 68, 0.4));
+
 }
 
 .class2 {
@@ -49,11 +53,12 @@ p {
 /* Using child/ descendant selectors */
 div>p {
     background-color: rgb(87, 87, 122, 0.3);
+
 }
 
 h4 {
     text-align: right;
-    font-size: 24pt;
+    font-size: 21pt;
 
 }
 
