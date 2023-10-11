@@ -107,3 +107,29 @@ button:hover {
 button:active {
     background-color: rgb(33, 192, 192)
 }
+
+
+/* FOR page6.html
+
+div.goright{
+    position: absolute;
+    top: 1.5in;
+    right: 21%;
+}
+
+h3{
+    font-size: 25pt;
+    padding: 30px; 
+    margin: 50px;    
+    border: solid rgb(97, 30, 86); 
+    border-width: 12px;           
+    width: 250px;        
+}
+p.worldcup{
+    font-size:1em;
+    padding: 30px; 
+    margin: 50px;    
+    border: 6px solid rgb(97, 30, 86);            
+    width: 250px;
+    overflow: scroll;
+} */

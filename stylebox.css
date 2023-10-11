@@ -1,0 +1,60 @@
+/* FOR page6.html */
+*{
+    color: whitesmoke;
+}
+
+body {
+    background-image: url('Quemira.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.link {
+    text-align: center;
+}
+
+div.goright{
+    position: absolute;
+    top: 1in;
+    right: 7%;
+}
+
+h3{
+    /* top: 1.5in; */
+    font-size: 25pt;
+    padding: 30px; 
+    margin: 50px;    
+    border: solid rgb(97, 30, 86); 
+    border-width: 12px;           
+    width: 250px;        
+}
+p.worldcup{
+    font-size:1.2em;
+    padding: 30px; 
+    margin: 50px;    
+    border: 6px solid rgb(46, 236, 230);            
+    width: 250px;
+    overflow: scroll;
+}
+
+
+button {
+    font: bold 12pt verdana;
+    padding: 11px;
+    background-color: #5652c6;
+    color: white;
+    border: solid 2px rgb(56, 54, 54);
+    border-radius: 12px;
+}
+
+/* Active and Hover concepts */
+
+button:hover {
+    background-color: #251fde;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(33, 192, 192)
+}
