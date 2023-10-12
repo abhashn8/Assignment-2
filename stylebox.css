@@ -1,6 +1,6 @@
 /* FOR page6.html */
 *{
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -15,8 +15,9 @@ div.link {
 
 div.goright{
     position: absolute;
-    top: 1in;
-    right: 7%;
+    top: 0.7in; 
+    right: 6%;
+    background-image:linear-gradient(to bottom, rgb(75, 157, 211,0.05), white, rgb(75, 157, 211,0.05));    ;
 }
 
 h3{
@@ -32,11 +33,14 @@ p.worldcup{
     font-size:1.2em;
     padding: 30px; 
     margin: 50px;    
-    border: 6px solid rgb(46, 236, 230);            
+    border: 12px solid rgb(97, 30, 86);             
     width: 250px;
     overflow: scroll;
 }
 
+i{
+    color: whitesmoke
+}
 
 button {
     font: bold 12pt verdana;
