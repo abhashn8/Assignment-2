@@ -1,0 +1,46 @@
+/* FOR page6.html */
+*{
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url('Quemira.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.link {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+i{
+    color: whitesmoke
+}
+
+button {
+    font: bold 12pt verdana;
+    padding: 11px;
+    background-color: #5652c6;
+    color: white;
+    border: solid 2px rgb(56, 54, 54);
+    border-radius: 12px;
+}
+
+/* Active and Hover concepts */
+
+button:hover {
+    background-color: #251fde;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(33, 192, 192)
+}
