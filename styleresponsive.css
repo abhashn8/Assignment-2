@@ -1,10 +1,10 @@
 /* FOR page6.html */
-*{
+* {
     color: rgb(0, 0, 0);
 }
 
 body {
-    background-image: url('Quemira.jpeg');
+    /* background-image: url('Quemira.jpeg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -13,6 +13,29 @@ div.link {
     text-align: center;
 }
 
+.players {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+    max-width: 1200px;
+    margin: 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 3%;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.individual {
+    background-color: rgb(130, 94, 144);
+    color: white;
+    padding: 1.5rem;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -20,7 +43,8 @@ div.link {
 
 
 
-i{
+
+i {
     color: whitesmoke
 }
 
