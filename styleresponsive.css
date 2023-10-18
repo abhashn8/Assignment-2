@@ -13,32 +13,92 @@ div.link {
     text-align: center;
 }
 
+/* GRID part */
+
+#one {
+    grid-area: "one";
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#nine {
+    grid-area: nine;
+}
+
 .players {
     display: grid;
     grid-auto-flow: column;
     grid-gap: 1rem;
-    max-width: 1200px;
+    width: 100%;
     margin: 10px;
     justify-content: center;
     position: absolute;
     bottom: 3%;
-    left: 50%; 
-    transform: translateX(-50%); 
+    left: 50%;
+    transform: translateX(-50%);
+    grid-template-areas: 'one two three four five six seven eight nine';
+    
 }
 
 .individual {
+    font-size: 14pt;
     background-color: rgb(130, 94, 144);
     color: white;
     padding: 1.5rem;
     height: 35px;
-    width: 35px;
+    width: auto;
     border-radius: 30px;
     display: flex;
     align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+    .players {
+        width: 100%;
+        grid-template-areas:
+        'one two three four five'
+        ' six seven eight nine nine';
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .players {
+        /* width: 100; */
+        grid-template-areas:
+        'one two three '
+        ' four five six '
+        'seven eight nine ' ;
+    }
 
+}
+
+/* FLEX PART */
 
 
 
