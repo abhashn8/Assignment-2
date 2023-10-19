@@ -1,10 +1,10 @@
 /* FOR page6.html */
 * {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 body {
-    /* background-image: url('Quemira.jpeg'); */
+    background-image: url(Led.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -12,6 +12,35 @@ body {
 div.link {
     text-align: center;
 }
+
+/* FLEX PART */
+.goats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+
+
+.player-img {
+    height: 300px;
+    width: 450px;
+    padding: 20px;
+}
+
+.player-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
 
 /* GRID part */
 
@@ -63,12 +92,12 @@ div.link {
     left: 50%;
     transform: translateX(-50%);
     grid-template-areas: 'one two three four five six seven eight nine';
-    
+
 }
 
 .individual {
     font-size: 14pt;
-    background-color: rgb(130, 94, 144);
+    background-color: rgb(87, 22, 22);
     color: white;
     padding: 1.5rem;
     height: 35px;
@@ -82,8 +111,8 @@ div.link {
     .players {
         width: 100%;
         grid-template-areas:
-        'one two three four five'
-        ' six seven eight nine nine';
+            'one two three four five'
+            ' six seven eight nine nine';
     }
 }
 
@@ -91,14 +120,11 @@ div.link {
     .players {
         /* width: 100; */
         grid-template-areas:
-        'one two three '
-        ' four five six '
-        'seven eight nine ' ;
+            'one two three '
+            ' four five six '
+            'seven eight nine ';
     }
-
 }
-
-/* FLEX PART */
 
 
 
