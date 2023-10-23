@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#48e" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="">
+    <link rel="icon" type="image/png" sizes="180x180" href="messi4k.webp">
+    <style>
+        body {
+            /* background-image: url(brazuca.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat; */
+            background-color: rgb(185, 172, 184);
+        }
+
+        * {
+            font-size: 12pt;
+        }
+
+        div.link {
+            text-align: center;
+        }
+
+        i {
+            color: whitesmoke
+        }
+
+        .whole {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            margin-top: 60px;
+            margin-bottom: 30px;
+        }
+
+        .done {
+            /* background-color: antiquewhite; */
+            text-align: center;
+        }
+
+        .done input {
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+
+        .text {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .tiempo {
+            text-align: center;
+            margin: 20px;
+        }
+
+        button {
+            font: bold 12pt verdana;
+            padding: 11px;
+            background-color: #5652c6;
+            color: white;
+            border: solid 2px rgb(56, 54, 54);
+            border-radius: 12px;
+        }
+
+        /* Active and Hover concepts */
+
+        button:hover {
+            background-color: #251fde;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:active {
+            background-color: rgb(33, 192, 192)
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="link">
+        <a href="index.html">
+            <button>Click me to go to the <i>original page.</i></button>
+        </a>
+    </div>
+    <div class="whole">
+        <div class="first">
+            <p>Hey just need your full name. </p>
+
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+            </form> <br>
+
+            <form>
+                <label for="year">What year are you?</label>
+                <select id="year" name="year">
+                    <option value="freshman">Freshman</option>
+                    <option value="sophomore">Sophomore</option>
+                    <option value="junior">Junior</option>
+                    <option value="senior">Senior</option>
+                </select>
+                <br><br>
+                <input type="reset" value="Choose Again"><br>
+            </form>
+
+            <form>
+                <label for="major">What is your major(s)?</label>
+                <select id="major" name="major" multiple>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="economics">Economics</option>
+                    <option value="biology">Biology</option>
+                    <option value="business">Business</option>
+                </select>
+                <br><br>
+            </form>
+
+        </div>
+
+
+        <div class="second">
+            <p>As always, choose your favorite player. </p>
+
+            <form>
+                <input type="radio" id="p1" name="player" value="LM10">
+                <label for="p1">Lionel Messi</label><br>
+                <input type="radio" id="p2" name="player" value="CR7">
+                <label for="p2">Cristiano Ronaldo</label><br>
+                <input type="radio" id="p3" name="player" value="NJR">
+                <label for="p3">Neymar Jr</label><br><br>
+                <input type="reset" value="Choose Again">
+            </form>
+
+        </div>
+
+        <div class="third">
+            <p>I know this one's difficult but your fav football league? </p>
+
+            <form>
+                <input type="checkbox" id="WC" name="fav_league" value="World Cup">
+                <label for="html">World Cup</label><br>
+                <input type="checkbox" id="UCL" name="fav_league" value="Champions League">
+                <label for="UCL">Champions League</label><br>
+                <input type="checkbox" id="Euro" name="fav_league" value="Euro Cup">
+                <label for="Euro">Euro Cup</label><br><br>
+                <input type="reset" value="Choose Again">
+
+            </form>
+
+        </div>
+    </div>
+    <div class="text">
+        <form action="">
+            <textarea name="" id="" cols="40" rows="5" placeholder="Any improvement suggestions."></textarea>
+        </form>
+    </div>
+    <div class="tiempo">
+        <form>
+            <label for="date-time">Today's Date:</label>
+            <input type="datetime-local" id="birthdaytime" name="date-time">
+        </form>
+    </div>
+
+    <div class="done">
+        <input type="button" onclick="alert('Your report is submitted to Mr.Abhash')" value="Click Me to submit!">
+
+    </div>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
