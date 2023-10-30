@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <script src="hello.js"></script>
+    <style>
+        body {
+            background-image: url(soccer.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        div.link {
+            text-align: center;
+        }
+
+        button {
+            font: bold 12pt verdana;
+            padding: 11px;
+            background-color: #5652c6;
+            color: white;
+            border: solid 2px rgb(56, 54, 54);
+            border-radius: 12px;
+        }
+
+        /* Active and Hover concepts */
+
+        button:hover {
+            background-color: #251fde;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:active {
+            background-color: rgb(33, 192, 192)
+        }
+
+        div.btn {
+            text-align: center;
+        }
+
+        button.play {
+            margin-top: 25%;
+            font: bold 21pt verdana;
+            padding: 11px;
+            background-color: rgb(255, 162, 0);
+            color: black;
+            border: solid 2px rgb(56, 54, 54);
+            border-radius: 12px;
+        }
+
+        /* Active and Hover concepts */
+
+        button:hover {
+            background-color: #251fde;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:active {
+            background-color: rgb(33, 192, 192)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="link">
+        <a href="index.html">
+            <button>Click me to go to the <i>original page.</i></button>
+        </a>
+    </div>
+    <div class="btn">
+        <button class="play" onclick="hello()">
+            Just Play with me!!
+        </button>
+    </div>
+</body>
+
+</html>
